@@ -190,7 +190,7 @@ export default {
   mounted() {
     // below are the default props to overwrite from base roundSlider
     const defaultProps = {
-      svgMode: true
+      svgMode: false
     };
     // merge the actual props witht the default props then initialize the component
     const options = Object.assign(defaultProps, this.allProps);
